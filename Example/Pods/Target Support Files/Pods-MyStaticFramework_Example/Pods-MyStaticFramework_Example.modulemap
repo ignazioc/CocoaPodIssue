@@ -1,0 +1,6 @@
+framework module Pods_MyStaticFramework_Example {
+  umbrella header "Pods-MyStaticFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
