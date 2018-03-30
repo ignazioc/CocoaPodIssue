@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyStaticFramework_Example' do
+  pod 'MyStaticFramework', :path => '../'
+
+  target 'MyStaticFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
