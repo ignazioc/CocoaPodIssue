@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		448C45C3F9E6B8CE233F07EBDCD5B516 /* MyStaticFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA9EF9C20EB1162EA64B1C9EDA39C9C /* MyStaticFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BA6E63659ABA50F6B2E72241EAF95F /* MyStaticFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15363D2C566C53AD86E4175E040E46 /* MyStaticFramework-dummy.m */; };
+		6E898AA3648E74CDEE5B93CC53BF08C7 /* MyStaticFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B11CB9903FE4ECC5B9784470ECCF118 /* MyStaticFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CFA5C00232C815B07BB64A9A31E6C0B /* Pods-MyStaticFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6261280EF200DC6F5087498577EF9F59 /* Pods-MyStaticFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FF0C38CCE1C6CA913B9FCAF36C8638F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8E24675F77E28690FC62A5B7D29AE7D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8E45BADE34878A6279EE637AF424316B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356062029AA1282BDE20EB8B94265F6 /* ReplaceMe.swift */; };
 		9114A1465428A09C842C109CF8ABA6A8 /* Pods-MyStaticFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9A0FE17B019EF9D8C03ACBCAC6D8A4 /* Pods-MyStaticFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		975838506164E8A5EA01F7C4D1AB6AF6 /* Pods-MyStaticFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F373D0993119FFDE817F36DF2FA1E62A /* Pods-MyStaticFramework_Example-dummy.m */; };
-		9CC3510B8B02B352996F3D1D257AFD1B /* MyStaticFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424BEDE51772F2C656EEB9D1C32B26DC /* MyStaticFramework-dummy.m */; };
 		BA3DC4DFA3972B202A1AAB758D67F21C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CA3DF81DF0139794108E20C10F013D0C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C54E46312B9ECD690E31F4EEA7460 /* ReplaceMe.swift */; };
 		EA4B397DB370E939B8DDE1FAA8A3F02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F8CC1916DB39F40293A12B8BE037ABA0 /* Pods-MyStaticFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAF1BD635518F3702945DF0D49434FD /* Pods-MyStaticFramework_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -24,47 +24,46 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01641D44C0F6A28A3951FC1075D6F836;
+			remoteGlobalIDString = 29F31B3A32B49489D7668C0C8E685B1A;
 			remoteInfo = MyStaticFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07BBE8DE721D685C064A0D52D55EA2D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0E4C3BAB4E1E599BC2F83DBE03522FE2 /* MyStaticFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyStaticFramework.modulemap; sourceTree = "<group>"; };
 		0E896D051D4A40F81E2126E5426885AB /* Pods-MyStaticFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyStaticFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		18492DE1BF3D21C40336E02F19B91396 /* Pods-MyStaticFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyStaticFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1A463A808639CE2E14B5A8EF7CFAF343 /* MyStaticFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyStaticFramework.xcconfig; sourceTree = "<group>"; };
 		1DD1230CBE68CFA7A66B1C519D0071E4 /* Pods-MyStaticFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyStaticFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		24FDB0652EB691FC77777147E9FDE3A9 /* Pods-MyStaticFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyStaticFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		288AB596F8FFFE2D45237619104EE761 /* MyStaticFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyStaticFramework-prefix.pch"; sourceTree = "<group>"; };
+		28A94A257BB5AF1E202B9C85A8D48FB8 /* Pods_MyStaticFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyStaticFramework_Tests.framework; path = "Pods-MyStaticFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E630D684AE4EC81BBC94BD687DB6FA /* Pods-MyStaticFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyStaticFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C15363D2C566C53AD86E4175E040E46 /* MyStaticFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyStaticFramework-dummy.m"; sourceTree = "<group>"; };
 		2C9A0FE17B019EF9D8C03ACBCAC6D8A4 /* Pods-MyStaticFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyStaticFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		38237412E68F25D932EA5FCEA89E0D64 /* Pods-MyStaticFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyStaticFramework_Example-resources.sh"; sourceTree = "<group>"; };
+		3B11CB9903FE4ECC5B9784470ECCF118 /* MyStaticFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyStaticFramework-umbrella.h"; sourceTree = "<group>"; };
 		3CE7599BE6A276270158E3479221CE22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4542C934B8513C43C1EFA4FAAA83A0 /* Pods-MyStaticFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyStaticFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		424BEDE51772F2C656EEB9D1C32B26DC /* MyStaticFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyStaticFramework-dummy.m"; sourceTree = "<group>"; };
-		5A7909662DC7684D063B479F025A5C52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407D99C86856C00ACF2A05465E3C863F /* MyStaticFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyStaticFramework.xcconfig; sourceTree = "<group>"; };
 		6261280EF200DC6F5087498577EF9F59 /* Pods-MyStaticFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyStaticFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		690D645E56F8C049E7C38924104EC37E /* Pods_MyStaticFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyStaticFramework_Example.framework; path = "Pods-MyStaticFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E20FB4E17C1BFF2FD1D4A048C19D939 /* Pods-MyStaticFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyStaticFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		75773AD703819F47F91B11D1E87B7F74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		819041D1061290BDB84F7610CB7913E5 /* MyStaticFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyStaticFramework.modulemap; sourceTree = "<group>"; };
 		92769404015B91F1A81E9C45D8E8BD0F /* Pods-MyStaticFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyStaticFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F2428F4D879E584DAC6A5A5E730622 /* Pods-MyStaticFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyStaticFramework_Example.modulemap"; sourceTree = "<group>"; };
-		96B258D2365A7967562729A65A688C84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9A85AE982DB336D205DF3B766B6A5929 /* MyStaticFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyStaticFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4B06C88408696907A4670AD919F32DC /* MyStaticFramework.framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MyStaticFramework.framework; path = libMyStaticFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B600F7F6B2FD24215B872E0E8339DB42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBA9EF9C20EB1162EA64B1C9EDA39C9C /* MyStaticFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyStaticFramework-umbrella.h"; sourceTree = "<group>"; };
+		C01112311199A36279A4DFEB5093C714 /* MyStaticFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyStaticFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C46698D98DC8D5B906D13C756F628F09 /* Pods-MyStaticFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyStaticFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C506337A35D5204689C45F51E1F3FD83 /* Pods-MyStaticFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyStaticFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C607390E539C49278A3704EE80C1A205 /* MyStaticFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyStaticFramework.framework; path = MyStaticFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC179F4C39F4D4766022FE5C4774C0FC /* Pods-MyStaticFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyStaticFramework_Tests-resources.sh"; sourceTree = "<group>"; };
-		D4FF74ADF32DC691E7B425274BC5F24E /* Pods_MyStaticFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyStaticFramework_Tests.framework; path = "Pods-MyStaticFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8C54E46312B9ECD690E31F4EEA7460 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyStaticFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D356062029AA1282BDE20EB8B94265F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyStaticFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DF10EB0BFF845BC8C42728059A3A3BE7 /* Pods-MyStaticFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyStaticFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8D01003001A4471698A8F1A05D2072C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F373D0993119FFDE817F36DF2FA1E62A /* Pods-MyStaticFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyStaticFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		F5BCD37E8F90C03E0E5070B1FB9553C4 /* Pods_MyStaticFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyStaticFramework_Example.framework; path = "Pods-MyStaticFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAF1BD635518F3702945DF0D49434FD /* Pods-MyStaticFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyStaticFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDE621C786AA91BBD6D0578E162DD357 /* MyStaticFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyStaticFramework-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,19 +75,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A6264694C0A8F0028A57A2FECAB93FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24675F77E28690FC62A5B7D29AE7D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55B2074A99403364D801BE5344649480 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA3DC4DFA3972B202A1AAB758D67F21C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93058AB8492F724A117CBA5D4D6D6B7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FF0C38CCE1C6CA913B9FCAF36C8638F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,15 +112,14 @@
 			path = "Target Support Files/Pods-MyStaticFramework_Example";
 			sourceTree = "<group>";
 		};
-		3B10F1993C1127A7285C5397F73E48D5 /* MyStaticFramework */ = {
+		1C593F534D423A84AA18873AC58FB44F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DE8C54E46312B9ECD690E31F4EEA7460 /* ReplaceMe.swift */,
-				F54471A524B128DF1B5E99C6A5ED1D7E /* Pod */,
-				AA3EC041A7FA51067B0EF9D957274973 /* Support Files */,
+				07BBE8DE721D685C064A0D52D55EA2D4 /* LICENSE */,
+				C01112311199A36279A4DFEB5093C714 /* MyStaticFramework.podspec */,
+				E8D01003001A4471698A8F1A05D2072C /* README.md */,
 			);
-			name = MyStaticFramework;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -130,20 +128,19 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F04DAC70C57C4366F7E0C29B8337235E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EEB15041B0B02D99973467BAD7E80C1E /* Products */,
+				CE1D1D776B8CBBF45231B17F9F4844AF /* Products */,
 				C608240C06080B159056145801865173 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AA3EC041A7FA51067B0EF9D957274973 /* Support Files */ = {
+		B526A7ED16E0E624183C83435D76BB38 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A7909662DC7684D063B479F025A5C52 /* Info.plist */,
-				819041D1061290BDB84F7610CB7913E5 /* MyStaticFramework.modulemap */,
-				1A463A808639CE2E14B5A8EF7CFAF343 /* MyStaticFramework.xcconfig */,
-				424BEDE51772F2C656EEB9D1C32B26DC /* MyStaticFramework-dummy.m */,
-				288AB596F8FFFE2D45237619104EE761 /* MyStaticFramework-prefix.pch */,
-				BBA9EF9C20EB1162EA64B1C9EDA39C9C /* MyStaticFramework-umbrella.h */,
+				0E4C3BAB4E1E599BC2F83DBE03522FE2 /* MyStaticFramework.modulemap */,
+				407D99C86856C00ACF2A05465E3C863F /* MyStaticFramework.xcconfig */,
+				2C15363D2C566C53AD86E4175E040E46 /* MyStaticFramework-dummy.m */,
+				FDE621C786AA91BBD6D0578E162DD357 /* MyStaticFramework-prefix.pch */,
+				3B11CB9903FE4ECC5B9784470ECCF118 /* MyStaticFramework-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MyStaticFramework";
@@ -184,6 +181,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CE1D1D776B8CBBF45231B17F9F4844AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B06C88408696907A4670AD919F32DC /* MyStaticFramework.framework */,
+				F5BCD37E8F90C03E0E5070B1FB9553C4 /* Pods_MyStaticFramework_Example.framework */,
+				28A94A257BB5AF1E202B9C85A8D48FB8 /* Pods_MyStaticFramework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,32 +199,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EEB15041B0B02D99973467BAD7E80C1E /* Products */ = {
+		E728A07E07176F94E6AA8C3E79267E1C /* MyStaticFramework */ = {
 			isa = PBXGroup;
 			children = (
-				C607390E539C49278A3704EE80C1A205 /* MyStaticFramework.framework */,
-				690D645E56F8C049E7C38924104EC37E /* Pods_MyStaticFramework_Example.framework */,
-				D4FF74ADF32DC691E7B425274BC5F24E /* Pods_MyStaticFramework_Tests.framework */,
+				D356062029AA1282BDE20EB8B94265F6 /* ReplaceMe.swift */,
+				1C593F534D423A84AA18873AC58FB44F /* Pod */,
+				B526A7ED16E0E624183C83435D76BB38 /* Support Files */,
 			);
-			name = Products;
+			name = MyStaticFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F04DAC70C57C4366F7E0C29B8337235E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B10F1993C1127A7285C5397F73E48D5 /* MyStaticFramework */,
+				E728A07E07176F94E6AA8C3E79267E1C /* MyStaticFramework */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F54471A524B128DF1B5E99C6A5ED1D7E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				75773AD703819F47F91B11D1E87B7F74 /* LICENSE */,
-				9A85AE982DB336D205DF3B766B6A5929 /* MyStaticFramework.podspec */,
-				96B258D2365A7967562729A65A688C84 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91F71FDC4E8A061E16D8CD2395ACCDE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E898AA3648E74CDEE5B93CC53BF08C7 /* MyStaticFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB7D9665F74BED55AB39CBEC53936D96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,24 +245,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B935FB7E80CB6C3F50E89C55257F15BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				448C45C3F9E6B8CE233F07EBDCD5B516 /* MyStaticFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01641D44C0F6A28A3951FC1075D6F836 /* MyStaticFramework */ = {
+		29F31B3A32B49489D7668C0C8E685B1A /* MyStaticFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED79B0A1E42AF938E7779D749759ACA /* Build configuration list for PBXNativeTarget "MyStaticFramework" */;
+			buildConfigurationList = 79890BACED51B047D62425902817D8E6 /* Build configuration list for PBXNativeTarget "MyStaticFramework" */;
 			buildPhases = (
-				D3DE9ED87C66B8E76CC2F0FB3E4006B5 /* Sources */,
-				93058AB8492F724A117CBA5D4D6D6B7B /* Frameworks */,
-				B935FB7E80CB6C3F50E89C55257F15BD /* Headers */,
+				78C4690A10C048202B529572156F9478 /* Sources */,
+				4A6264694C0A8F0028A57A2FECAB93FC /* Frameworks */,
+				91F71FDC4E8A061E16D8CD2395ACCDE3 /* Headers */,
+				62DB5DBBAC6C9670C777CB2C058B2A6D /* Setup Static Framework */,
 			);
 			buildRules = (
 			);
@@ -264,8 +263,8 @@
 			);
 			name = MyStaticFramework;
 			productName = MyStaticFramework;
-			productReference = C607390E539C49278A3704EE80C1A205 /* MyStaticFramework.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A4B06C88408696907A4670AD919F32DC /* MyStaticFramework.framework */;
+			productType = "com.apple.product-type.library.static";
 		};
 		3CBFBD11DA653EE7A5E9BAD549AD74D6 /* Pods-MyStaticFramework_Tests */ = {
 			isa = PBXNativeTarget;
@@ -281,7 +280,7 @@
 			);
 			name = "Pods-MyStaticFramework_Tests";
 			productName = "Pods-MyStaticFramework_Tests";
-			productReference = D4FF74ADF32DC691E7B425274BC5F24E /* Pods_MyStaticFramework_Tests.framework */;
+			productReference = 28A94A257BB5AF1E202B9C85A8D48FB8 /* Pods_MyStaticFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E4571A47BA7B52E759D7050A6E94111E /* Pods-MyStaticFramework_Example */ = {
@@ -299,7 +298,7 @@
 			);
 			name = "Pods-MyStaticFramework_Example";
 			productName = "Pods-MyStaticFramework_Example";
-			productReference = 690D645E56F8C049E7C38924104EC37E /* Pods_MyStaticFramework_Example.framework */;
+			productReference = F5BCD37E8F90C03E0E5070B1FB9553C4 /* Pods_MyStaticFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,32 +318,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EEB15041B0B02D99973467BAD7E80C1E /* Products */;
+			productRefGroup = CE1D1D776B8CBBF45231B17F9F4844AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01641D44C0F6A28A3951FC1075D6F836 /* MyStaticFramework */,
+				29F31B3A32B49489D7668C0C8E685B1A /* MyStaticFramework */,
 				E4571A47BA7B52E759D7050A6E94111E /* Pods-MyStaticFramework_Example */,
 				3CBFBD11DA653EE7A5E9BAD549AD74D6 /* Pods-MyStaticFramework_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62DB5DBBAC6C9670C777CB2C058B2A6D /* Setup Static Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Static Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\n# The fat library archive is at a file symbolic link when archiving, so use -L option\nrsync -tL \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\nrsync -t \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\nrsync -tr \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		78C4690A10C048202B529572156F9478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA6E63659ABA50F6B2E72241EAF95F /* MyStaticFramework-dummy.m in Sources */,
+				8E45BADE34878A6279EE637AF424316B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9C739492F2C717F48F949668C18A13B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				975838506164E8A5EA01F7C4D1AB6AF6 /* Pods-MyStaticFramework_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3DE9ED87C66B8E76CC2F0FB3E4006B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9CC3510B8B02B352996F3D1D257AFD1B /* MyStaticFramework-dummy.m in Sources */,
-				CA3DF81DF0139794108E20C10F013D0C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +379,7 @@
 		B2237DFC72EDD9F9B6B427C432931BED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyStaticFramework;
-			target = 01641D44C0F6A28A3951FC1075D6F836 /* MyStaticFramework */;
+			target = 29F31B3A32B49489D7668C0C8E685B1A /* MyStaticFramework */;
 			targetProxy = 09F705B2F3D429D4D7E16C16C098EC79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,26 +417,45 @@
 			};
 			name = Debug;
 		};
-		2D1DF7E3CA9CE0289A534B24B09BEF82 /* Release */ = {
+		0F9D6C4D96336823796289C86E602A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A463A808639CE2E14B5A8EF7CFAF343 /* MyStaticFramework.xcconfig */;
+			baseConfigurationReference = 407D99C86856C00ACF2A05465E3C863F /* MyStaticFramework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MyStaticFramework/MyStaticFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyStaticFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MyStaticFramework/MyStaticFramework.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = MyStaticFramework.framework/PrivateHeaders;
 				PRODUCT_NAME = MyStaticFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = MyStaticFramework.framework/Headers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A172AB24A3BD4F0CCF464F8BF91F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407D99C86856C00ACF2A05465E3C863F /* MyStaticFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MyStaticFramework/MyStaticFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Target Support Files/MyStaticFramework/MyStaticFramework.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = MyStaticFramework.framework/PrivateHeaders;
+				PRODUCT_NAME = MyStaticFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = MyStaticFramework.framework/Headers;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -427,8 +463,6 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -654,37 +688,6 @@
 			};
 			name = Debug;
 		};
-		F5C656973C805FE4702A7209BA224F3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A463A808639CE2E14B5A8EF7CFAF343 /* MyStaticFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MyStaticFramework/MyStaticFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MyStaticFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MyStaticFramework/MyStaticFramework.modulemap";
-				PRODUCT_NAME = MyStaticFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -715,11 +718,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED79B0A1E42AF938E7779D749759ACA /* Build configuration list for PBXNativeTarget "MyStaticFramework" */ = {
+		79890BACED51B047D62425902817D8E6 /* Build configuration list for PBXNativeTarget "MyStaticFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5C656973C805FE4702A7209BA224F3A /* Debug */,
-				2D1DF7E3CA9CE0289A534B24B09BEF82 /* Release */,
+				0F9D6C4D96336823796289C86E602A3D /* Debug */,
+				2A172AB24A3BD4F0CCF464F8BF91F735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
