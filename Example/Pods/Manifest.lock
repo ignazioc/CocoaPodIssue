@@ -1,0 +1,16 @@
+PODS:
+  - MyStaticFramework (0.1.0)
+
+DEPENDENCIES:
+  - MyStaticFramework (from `../`)
+
+EXTERNAL SOURCES:
+  MyStaticFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyStaticFramework: ca9f5e0e83dd26be5daa40b57d38d89677d91ef0
+
+PODFILE CHECKSUM: 142c1157b1749c57c4826e50c9d369891d6c4618
+
+COCOAPODS: 1.4.0

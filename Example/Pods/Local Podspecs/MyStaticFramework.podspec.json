@@ -1,0 +1,22 @@
+{
+  "name": "MyStaticFramework",
+  "version": "0.1.0",
+  "summary": "A short description of MyStaticFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ignazio Calò/MyStaticFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ignazio Calò": "icalo@ebay.com"
+  },
+  "source": {
+    "git": "https://github.com/Ignazio Calò/MyStaticFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyStaticFramework/Classes/**/*"
+}
